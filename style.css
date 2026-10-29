@@ -16,18 +16,19 @@ body {
 }
 
 .sidebar{
-    background-color: red;
+    background-color: #121212;
     width: 340px;
     border-radius: 1rem; 
 }
 
 .main_content{
-    background-color: blue ;
+    background-color: #121212 ;
     flex: 1;
+    overflow: auto;
 }
 
 .music_player{
-    background-color: yellow;
+    background-color: black;
     position:fixed;
     bottom: 0;
     width: 100%;
