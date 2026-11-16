@@ -4,44 +4,45 @@ body {
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    background-color:#000;
+    background-color: #000;
     color: #fff;
     overflow: hidden;
 }
 
-.main{
+.main {
     display: flex;
     height: 100vh;
     padding: 0.5rem;
 }
 
-.sidebar{
+.sidebar {
     background-color: black;
     width: 340px;
-    border-radius: 1rem; 
+    border-radius: 1rem;
     margin-right: 0.5rem;
 }
 
-.main_content{
-    background-color: #121212 ;
+.main_content {
+    background-color: #121212;
     flex: 1;
     overflow: auto;
+    border-radius: 1rem;
 }
 
-.music_player{
+.music_player {
     background-color: black;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 73px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-.nav{
+.nav {
     background-color: #121212;
     border-radius: 1rem;
     display: flex;
@@ -51,26 +52,26 @@ a{
     padding: 0.5rem 0.75rem;
 }
 
-.nav-option{
+.nav-option {
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.7rem;
 }
 
-.nav-option:hover{
+.nav-option:hover {
     opacity: 1;
 }
 
-.nav-option i{
+.nav-option i {
     font-size: 1.25rem;
 }
 
-.nav-option a{
+.nav-option a {
     font-size: 1rem;
     margin-left: 1rem;
 }
 
-.library{
+.library {
     background-color: #121212;
     border-radius: 1rem;
     height: 100%;
@@ -78,34 +79,34 @@ a{
     padding: 0.5rem 0.75rem;
 }
 
-.options{
+.options {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.lib-option img{
+.lib-option img {
     height: 1.25rem;
     width: 1.25rem;
 }
 
-.icons{
+.icons {
     font-size: 1.25rem;
     display: flex;
-    
+
 }
 
-.icons i{
+.icons i {
     opacity: 0.7;
     margin-right: 1rem;
 }
 
-.icons i:hover{
+.icons i:hover {
     opacity: 1;
 }
 
-.box{
+.box {
     background-color: #232323;
     height: 8rem;
     border-radius: 0.75rem;
@@ -113,60 +114,63 @@ a{
     padding: 0.75rem 1rem;
 }
 
-.box-p1{
+.box-p1 {
     font-size: 1rem;
     font-weight: 500;
-    
+
 }
 
-.box-p2{
+.box-p2 {
     font-size: 0.85rem;
     opacity: 0.9;
 }
 
-.badge{
+.badge {
     background-color: #fff;
     border: none;
     border-radius: 100px;
     font-weight: 700;
     padding: 0.25rem 1rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: fit-content;
 }
 
-.dark-badge{
+.dark-badge {
     color: #fff;
     background-color: #000;
 }
 
-.dark-badge i{
+.dark-badge i {
     margin-right: 2px;
 }
 
-.sticky-nav{
+.sticky-nav {
     top: 0;
     position: sticky;
+    background-color: #121212;
     justify-content: space-between;
-    display: flex;    
-    align-items: center;   
-    padding: 1rem 0 1rem 0;                
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
 }
 
-.sticky-nav-icons{
+.sticky-nav-icons {
     margin-left: 0.75rem;
 }
 
-sticky-nav-options{
+.sticky-nav-options {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.nav-item{
+.nav-item {
     margin-right: 1rem;
 }
 
 @media (max-width: 1000px) {
-    .hide{
+    .hide {
         display: none;
     }
 }
