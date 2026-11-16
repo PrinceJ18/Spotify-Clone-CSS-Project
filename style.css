@@ -132,6 +132,41 @@ a{
     padding: 0.25rem 1rem;
 }
 
+.dark-badge{
+    color: #fff;
+    background-color: #000;
+}
+
+.dark-badge i{
+    margin-right: 2px;
+}
+
 .sticky-nav{
-    
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    display: flex;    
+    align-items: center;   
+    padding: 1rem 0 1rem 0;                
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .hide{
+        display: none;
+    }
 }
